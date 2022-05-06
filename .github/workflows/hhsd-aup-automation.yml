@@ -7,4 +7,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Download Dependencies
-        run: sudo apt install -y httrack webhttrack wget
+        run: sudo apt install -y httrack webhttrack
+      - name: Clean Folder
+        run: rm -rf ./mirrors/hhorgpg716
+      - name: Download Mirror
+        run: |
+            chmod +x ./heus.sh
+            ./heus.sh https://www.hatboro-horsham.org/Page/716 ./mirrors/hhorgpg716 3
+      - name: test
+        run: |
+            ls -al ./mirrors/hhorgpg716
