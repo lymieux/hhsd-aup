@@ -10,7 +10,7 @@ Description
 	heus - httrack easy use script: an easy script for httrack
 	
 EXAMPLES
-       httrack-download.sh  www.someweb.com/bob/ ~/Downloads 4
+       heus.sh  www.someweb.com/bob/ ~/Downloads 4
                mirror site www.someweb.com/bob/ with the download directory
                to the home folder with a mirror depth of 4
 
