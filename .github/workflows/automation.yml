@@ -1,7 +1,7 @@
-name: Push commit
+name: HHSD AUP Automation
 on:
   schedule:
-    - cron: "* */1 * * *"
+    - cron: "*/1 * * * *"
 jobs:
   report:
     runs-on: ubuntu-latest
