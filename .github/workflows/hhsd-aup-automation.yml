@@ -13,7 +13,7 @@ jobs:
       - name: Download Mirror
         run: |
             chmod +x ./heus.sh
-            ./heus.sh https://www.hatboro-horsham.org/Page/716 ./mirrors/hhorgpg716 3
+            ./heus.sh https://pa50000097.schoolwires.net/Page/716 ./mirrors/hhorgpg716 3
       - name: test
         run: |
             ls -al ./mirrors/hhorgpg716
