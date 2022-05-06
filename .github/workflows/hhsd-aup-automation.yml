@@ -1,7 +1,6 @@
 name: HHSD AUP Automation
 on:
-  schedule:
-    - cron: "58-59 * * * *"
+  push
 jobs:
   report:
     runs-on: ubuntu-latest
@@ -9,3 +8,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: test
         run: ls -al
+
