@@ -4,7 +4,7 @@ Name
 	heus.sh  - an easy use script for httrack
 	
 Synopsis
-	heus.sh [-h] [-f] [url] [directory] [depth]
+	heus.sh [-h] [url] [directory] [depth]
 	
 Description
 	heus - httrack easy use script: an easy script for httrack
@@ -14,15 +14,8 @@ EXAMPLES
                mirror site www.someweb.com/bob/ with the download directory
                to the home folder with a mirror depth of 4
 
-       heus.sh  -f www.someweb.com/bob/ ~/Downloads 4
-               mirror site www.someweb.com/bob/ with the download directory 
-               to the home folder with a mirror depth of 4 and overwrites 
-               the files in the download directory
-
 OPTIONS
 	General options:
-		-f	force: overwrites files if save location for mirror 
-				exists
 		-h	displays this description
 
 COPYRIGHT
