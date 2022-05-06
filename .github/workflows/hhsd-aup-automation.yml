@@ -6,6 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: test
-        run: ls -al
-
+      - name: Download Dependencies
+        run: sudo apt install -y httrack webhttrack wget
